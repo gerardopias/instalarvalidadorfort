@@ -41,6 +41,3 @@ cd FORT-validator-master/
 make
 sudo make install
 cd ../../
-
-#Place your .tal files in ~/fort/tal:
-mkdir $WORKING_DIR/tal
