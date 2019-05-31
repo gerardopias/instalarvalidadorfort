@@ -1,1 +1,1 @@
-sudo fort --configuration-file="/vagrant/fort_config" 
+sudo fort --configuration-file="fort_config"

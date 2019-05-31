@@ -1,6 +1,6 @@
 {
-	"tal": "./fort-install/fort/FORT-validator-master/tal",
-	"local-repository": "./fort-install/tmp/fort/repository",
+	"tal": "/vagrant/fort-install/tal/",
+	"local-repository": "/vagrant/fort-install/tmp/fort/repository",
 	"sync-strategy": "root",
 	"shuffle-uris": true,
 	

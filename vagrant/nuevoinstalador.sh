@@ -1,11 +1,11 @@
 #!/bin/bash
 
-WORKING_DIR=./fort-install
+WORKING_DIR=/vagrant/fort-install
 
-#sudo chown -R vagrant:vagrant /vagrant/
+sudo chown -R vagrant:vagrant /vagrant/
 # sincro de relojes
-#apt-get install -y ntp
-#timedatectl set-ntp true
+apt-get install -y ntp
+timedatectl set-ntp true
 
 mkdir $WORKING_DIR
 cd $WORKING_DIR
@@ -20,9 +20,9 @@ sudo apt-get install autoconf build-essential libjansson-dev libssl-dev pkg-conf
 ############### libcmscodec ###############
 mkdir libcmscodec
 cd libcmscodec/
-wget https://github.com/NICMx/libcmscodec/releases/download/beta2/libcmscodec-beta2.tar.gz
-tar xvzf libcmscodec-beta2.tar.gz
-cd libcmscodec-beta2/
+wget https://github.com/NICMx/libcmscodec/releases/download/beta1/libcmscodec-beta1.tar.gz
+tar xvzf libcmscodec-beta1.tar.gz
+cd libcmscodec-beta1/
 ./configure
 make
 sudo make install
