@@ -1,0 +1,34 @@
+{
+	"tal": "/etc/fort/tal",
+	"sync-strategy": "root",
+	"shuffle-uris": true,
+	
+	"server": {
+		"address": "127.0.0.1",
+		"port": "8323",
+		"backlog": 16,
+		"validation-interval": 3600
+	},
+
+	"log": {
+		"color-output": true,
+		"file-name-format": "global-url"
+	},
+
+	"rsync": {
+		"program": "rsync",
+		"arguments-recursive": [
+			"--recursive", "--delete", "--times", "--contimeout=20", "$REMOTE", "$LOCAL"
+		],
+		"arguments-flat": [
+			"--times", "--contimeout=20", "$REMOTE", "$LOCAL"
+		]
+	},
+
+	"incidences": [
+		{
+			"name": "Signed Object's hash algorithm has NULL object as parameters",
+			"action": "ignore"
+		}
+	]
+}
