@@ -20,9 +20,9 @@ sudo apt-get install autoconf build-essential libjansson-dev libssl-dev pkg-conf
 ############### libcmscodec ###############
 mkdir libcmscodec
 cd libcmscodec/
-wget https://github.com/NICMx/libcmscodec/releases/download/beta1/libcmscodec-beta1.tar.gz
-tar xvzf libcmscodec-beta1.tar.gz
-cd libcmscodec-beta1/
+wget https://github.com/NICMx/libcmscodec/releases/download/beta2/libcmscodec-beta2.tar.gz
+tar xvzf libcmscodec-beta2.tar.gz
+cd libcmscodec-beta2/
 ./configure
 make
 sudo make install
@@ -43,4 +43,4 @@ sudo make install
 cd ../../
 
 #Place your .tal files in ~/fort/tal:
-mkdir $WORKING_DIR/tal
+#mkdir $WORKING_DIR/tal

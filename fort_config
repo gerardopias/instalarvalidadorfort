@@ -6,7 +6,7 @@
 	
 	"server": {
 		"address": "127.0.0.1",
-		"port": "323",
+		"port": "8230",
 		"backlog": 16,
 		"validation-interval": 3600
 	},

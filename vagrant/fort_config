@@ -1,12 +1,12 @@
 {
-	"tal": "/vagrant/fort-install/tal/",
+	"tal": "/vagrant/fort-install/fort/FORT-validator-master/tal",
 	"local-repository": "/vagrant/fort-install/tmp/fort/repository",
 	"sync-strategy": "root",
 	"shuffle-uris": true,
 	
 	"server": {
 		"address": "127.0.0.1",
-		"port": "323",
+		"port": "8230",
 		"backlog": 16,
 		"validation-interval": 3600
 	},
