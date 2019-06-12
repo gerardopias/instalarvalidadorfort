@@ -1,6 +1,5 @@
 {
-	"tal": "./fort-install/fort/FORT-validator-master/tal",
-	"local-repository": "./fort-install/tmp/fort/repository",
+	"tal": "/etc/fort/tal",
 	"sync-strategy": "root",
 	"shuffle-uris": true,
 	

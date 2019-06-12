@@ -1,1 +1,0 @@
-sudo fort --configuration-file="fort_config"
