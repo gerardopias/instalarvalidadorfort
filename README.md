@@ -31,3 +31,5 @@ and run:
 ```
 sudo service fort start
 ```
+
+More documentation at [https://nicmx.github.io/FORT-validator/](https://nicmx.github.io/FORT-validator/).
